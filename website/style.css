@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Playwrite+CU:wght@100..400&display=swap');
+body{
+    background: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+/**   background-image: url(../assets/img/sun-rays-cloudy-sky.jpg);**/
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 1200px;
+   margin: auto;
+   box-shadow: #444;
+   background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(31,117,176,0.8632703081232493) 35%, rgba(0,212,255,1) 100%) ;
+   ;
+}
+
+.holder{
+
+}
+
+.entry{
+    background: rgba(59, 74, 107, .4);
+}
+
+#entryHolder{
+color: #fff;
+}
+
+#date{
+
+}
+
+#temp{
+
+}
+
+#content{
+
+}
+
+.headline {
+    font-family: 'Honk';
+}
+.title{
+
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    height: 30px;
+    width: 320px;
+    background:transparent;
+    color: #fff;
+    font-size: 20px;
+}
+
+button{
+    width: 400px;
+    height: 100px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+   
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:transparent;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 2px 2px #c2c1c17d;
+   
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #fff; 
+  
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #fff; 
+    
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
